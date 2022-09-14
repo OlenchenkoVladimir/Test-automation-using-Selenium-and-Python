@@ -1,2 +1,1 @@
-# Test-automation-using-Selenium-and-Python
-homework
+https://stepik.org/course/575/syllabus
