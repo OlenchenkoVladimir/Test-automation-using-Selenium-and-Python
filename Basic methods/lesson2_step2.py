@@ -21,7 +21,7 @@ try:
     answer : str = calc(x1, x2)
 
     select = Select(browser.find_element(By.ID, "dropdown"))
-    select.select_by_value(answer) # ищем элемент с текстом "Python"
+    select.select_by_value(answer)
     submit = browser.find_element(By.CLASS_NAME, "btn-default" )
     submit.click()
 finally:

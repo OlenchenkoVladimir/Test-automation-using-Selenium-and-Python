@@ -5,7 +5,7 @@ import math
 
 def calc(x):
     return str(math.log(abs(12*math.sin(int(x)))))
-
+    #What is ln(abs(12*sin(x))), where x = 531?
 try:
     link = "https://suninjuly.github.io/math.html"
     browser = webdriver.Chrome()
